@@ -479,6 +479,8 @@ button:focus{
         margin: 0 0.5rem;
         transition: var(--transition);
         color: #646464;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
     }
     .social-icons a:hover {
         color: #f26d6e;
