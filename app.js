@@ -18,9 +18,15 @@
 
 console.log(firebase);
 
+const database = firebase.firestore();
+
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
 const social = document.querySelector('.social-icons');
+
+let projectRef = database.collection('project');
+
+let unsubscribe = projectRef.get();
 
 navToggle.addEventListener("click", function (){
     //console.log(links.classList);
