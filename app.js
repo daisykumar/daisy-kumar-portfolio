@@ -6,9 +6,11 @@
     storageBucket: "daisy-kumar-portfolio.appspot.com",
     messagingSenderId: "704513711349",
     appId: "1:704513711349:web:5656717463a935e76439bc"
-  };
+    };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
+
+console.log(firebase);
 
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
