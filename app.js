@@ -14,19 +14,63 @@
     appId: "1:704513711349:web:5656717463a935e76439bc"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  const firebaseApp = firebase.initializeApp(firebaseConfig); 
 
 console.log(firebase);
 
-const database = firebase.firestore();
+//const database = firebase.firestore();
 
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
 const social = document.querySelector('.social-icons');
 
-let projectRef = database.collection('project');
+//let projectRef = database.collection('project');
 
-let unsubscribe = projectRef.get();
+//let unsubscribe = projectRef.get();
+
+
+const app = flamelink({
+	firebaseApp,
+	dbType: 'cf' // cloud firestore
+});
+
+let container = document.querySelector('#background-container');
+
+app.content.get({
+  schemaKey: 'projects', 
+  populate: [{
+    field: 'dataPng',
+    size: {
+      height: 300,
+      quality: 1,
+      width: 500
+    }
+  }]
+}) 
+.then(projects =>{
+  console.log('All of your projects:', projects)
+  let html = "";
+
+  for(const property in projects){
+    let proj = projects[property];
+    html += `
+      <div class="container">
+      <div class="container-image">
+        <img class="project-image" src="${proj.dataPng[0].url}" alt="Apenhet">
+      </div>
+      <div class="container-text">
+        <h3>${proj.title}</h3>
+        <p>${proj.paragraph}
+        </p>
+        <p>UX DESIGN, UI DESIGN</p>
+        <button class="project-button"><a class="behance-links" href="./Data.html" target="_blank">View Here</a> </button>
+      </div>
+      </div>
+    `
+  }
+  container.innerHTML = html
+})
+
 
 navToggle.addEventListener("click", function (){
     //console.log(links.classList);
