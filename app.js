@@ -35,9 +35,44 @@ const app = flamelink({
 });
 
 let container = document.querySelector('#background-container');
+let heroBackground = document.querySelector('.hero');
+
+//Ask line 41 to 72
+//  app.content.get({
+ //     schemaKey: 'home',
+ //     populate: [{
+ //       field: 'heroImagePng',
+ //       size:{
+ //         height: 400,
+ //         quality: 1,
+  //        width: 600
+  //      }
+ //     }]
+  //  })
+
+ //   .then(home =>{
+  //    console.log('All of your projects:', home)
+//      let html = "";
+
+ //     for(const property in home){
+ //       let home = home[property];
+ //       html += `
+  //      <header class="hero">
+//        <div class="bk-img">
+//        <img src="${home.heroImagePng[0].url}">
+ //       </div>
+ //       <article class="hero-img">
+ //           <h1 style="text-align:center" class="name"> <span   class="human">Humanising Technology, </span>Creating Value through Design</h1>
+  //          <p class="daisy" style="text-align:center">DAISY KUMAR</p>
+   //     </article>
+   //     </header>
+  //      `
+  //    }
+  //    heroBackground.innerHTML = html
+  //  })
 
 app.content.get({
-  schemaKey: 'projects', 
+  schemaKey: 'projects',
   populate: [{
     field: 'dataPng',
     size: {
