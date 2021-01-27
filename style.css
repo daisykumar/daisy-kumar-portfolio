@@ -68,7 +68,7 @@ h1, h2, h3, h4{
     flex-direction: column;
     
     position: absolute;
-    top: 65px;
+    top: 60px;
     left: 0px;
     right: 0px;
 
@@ -149,6 +149,7 @@ Navbar
     border-color: transparent;
     transition: var(--transition);
     cursor: pointer;
+    margin: 0 20px;
 }
 .nav-toggle:hover {
     color: var(--clr-primary-1);
@@ -164,6 +165,7 @@ Navbar
     display: block;
     padding: 1rem 1rem;
     transition: var(--transition);
+    background-color: #ecfaf8;
 }
 .links a:hover{
     background: #f26d6e;    
@@ -174,7 +176,7 @@ Navbar
 
 /* BY DEFAULT HIDE LINKS */
 .link{
-    height: 0;
+    height: 0rem;
     overflow: hidden;
     transition: var(--transition); 
 }
@@ -186,6 +188,7 @@ Navbar
 .show-links {
     height: 15rem;
     padding-top: 1rem;
+    transform: rotate(0deg);
 }
 
 
@@ -211,7 +214,7 @@ Navbar
 /*==============CONTACT =================================*/
 .contact-form{
     background-image: url(./images/Contact.png);
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,16 +256,7 @@ Navbar
 
 /*==============START OF FOOTER =================================*/
 
-.footer-para{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-}
+
 
 /*==============END OF FOOTER =================================*/
 
@@ -361,21 +355,23 @@ nav{
 .nav-header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 }
 .nav-center{
     position: fixed;
-    bottom: 0;
-    bottom: calc(1.18*env(safe-area-inset-bottom));
-    left: 0;
-    right: 0;
+    bottom: 0px;
+    bottom: calc(0px + 1.18*env(safe-area-inset-bottom));
+    left: 20px;
+    right: 20px;
     z-index: 20;
-    max-height: 8vh;
-    margin: 10px;
+    max-height: calc(100vh - 108px);
+    max-width: 100%;
+    padding: 0rem 0rem;
+    margin: 20px;
     border-radius: 0px 20px;
-    background-color: #ecfaf8;
-    box-shadow: 0 4px 8px 2px #61edd82a;
+    background-color: #d4f8f3;
+    box-shadow: 0 4px 8px 2px #61edd84f;
 }
 .bk-img{
     position: absolute;
@@ -383,8 +379,11 @@ nav{
     top: 0%;
     left: 0%;
 }
+.footer-para{
+    margin: 10px;
+}
 
-@media screen and (min-width: 950px){
+@media screen and (min-width: 750px){
 
     .nav-center{
         display: flex;
@@ -401,6 +400,7 @@ nav{
         z-index: 20;
         padding: 5px;
         max-height: 8vh;
+        max-width: 100vw;
         border-radius: 0px 20px;
         background-color: #ecfaf8;
         box-shadow: 0 4px 8px 2px #61edd82a;
@@ -467,12 +467,10 @@ nav{
     
     }
 
-    .nav-header{
-        padding-top: 0;
-    }
     .nav-toggle{
         display: none;
     }
+
     .links{
         height: auto;
         display: flex;
@@ -574,7 +572,7 @@ nav{
     .logo {
         height: 4.8vh;
         padding-top: 0px;
-        margin-top: 6px;
+        margin-bottom: 3px;
     }
     #DS{
         padding-left: 30px;
@@ -610,6 +608,16 @@ nav{
     }
     #background-container{
         background-color:  #EEECEC;
+    }
+    .footer-para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
     }
 }
 
