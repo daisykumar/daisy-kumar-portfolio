@@ -37,42 +37,72 @@ const app = flamelink({
 let container = document.querySelector('#background-container');
 let heroBackground = document.querySelector('.hero');
 
+app.content.get({
+  schemaKey: 'home',
+  populate: [{
+    field: 'heroImagePng',
+    size:{
+      height: 400,
+      quality: 1,
+      width: 600
+    }
+  }]
+})
+.then(hP => {
+  console.log('daisy', hP)
+  let html = `
+        <div class="bk-img">
+        <img src="${hP.heroImagePng[0].url}">
+        </div>
+        <article class="hero-img">
+            <h1 style="text-align:center" class="name"> <span   class="human">${hP.text}</span>${hP.text2}</h1>
+            <p class="daisy" style="text-align:center">${hP.text3}</p>
+        </article>
+      `
+    heroBackground.innerHTML = html
+})
+.catch(error => console.log(error))
+
+
+
 //Ask line 41 to 72
-//  app.content.get({
- //     schemaKey: 'home',
- //     populate: [{
- //       field: 'heroImagePng',
- //       size:{
- //         height: 400,
- //         quality: 1,
-  //        width: 600
-  //      }
- //     }]
-  //  })
+// app.content.get({
+// schemaKey: 'home',
+// //     populate: [{
+// //         field: 'heroImagePng',
+// //         size:{
+// //           height: 400,
+// //           quality: 1,
+// //           width: 600
+// //         }
+// //       }]
+//   })
 
- //   .then(home =>{
-  //    console.log('All of your projects:', home)
-//      let html = "";
-
- //     for(const property in home){
- //       let home = home[property];
- //       html += `
-  //      <header class="hero">
-//        <div class="bk-img">
-//        <img src="${home.heroImagePng[0].url}">
- //       </div>
- //       <article class="hero-img">
- //           <h1 style="text-align:center" class="name"> <span   class="human">Humanising Technology, </span>Creating Value through Design</h1>
-  //          <p class="daisy" style="text-align:center">DAISY KUMAR</p>
-   //     </article>
-   //     </header>
-  //      `
-  //    }
-  //    heroBackground.innerHTML = html
-  //  })
+//     .then(home =>{
+//     console.log('All of your projects:', home)
+//       let html = "";
+//       console.log(home);
+//       // for(const property in homePage){
+//       // let hP = homePage[property];
+//       //   html += `
+//       //   <header class="hero">
+//       //   <div class="bk-img">
+//       //   <img src="${hP.heroImagePng[0].url}">
+//       //   </div>
+//       //   <article class="hero-img">
+//       //       <h1 style="text-align:center" class="name"> <span   class="human">Humanising Technology, </span>Creating Value through Design</h1>
+//       //       <p class="daisy" style="text-align:center">DAISY KUMAR</p>
+//       //   </article>
+//       //   </header>
+//       // `
+//       // }
+//       heroBackground.innerHTML = html
+//     })
+//     .catch(error => console.log(error)) 
 
 app.content.get({
   schemaKey: 'projects',
+  orderBy: 'order',
   populate: [{
     field: 'dataPng',
     size: {
@@ -98,7 +128,7 @@ app.content.get({
         <p>${proj.paragraph}
         </p>
         <p>UX DESIGN, UI DESIGN</p>
-        <button class="project-button"><a class="behance-links" href="./Data.html" target="_blank">View Here</a> </button>
+        <button class="project-button"><a class="behance-links" href="/project.html?id=${proj.id}" target="_blank">View Here</a> </button>
       </div>
       </div>
     `
