@@ -42,6 +42,10 @@ p, ol, li, a{
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }
+p{
+    font-size: 16px;
+}
+
 
 h1, h2, h3, h4{
     font-family: 'Poppins', sans-serif !important;
@@ -53,12 +57,13 @@ h1, h2, h3, h4{
     align-items: center;
     justify-content: space-between;
     padding: 0rem;
-    height: 300px;
+    height: 350px;
     background: #EEECEC;
     max-width: 100%;
     text-align: center;
-    font-size: 32px;
-    color: white;
+    font-size: 24px;
+    color: #353433;
+
 }
 
 .hero-img{
@@ -68,7 +73,7 @@ h1, h2, h3, h4{
     flex-direction: column;
     
     position: absolute;
-    top: 60px;
+    top: 1px;
     left: 0px;
     right: 0px;
 
@@ -115,19 +120,6 @@ img {
 }
 
 
-.row-method{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
 
 .workshop{
     margin: 0 auto;
@@ -165,7 +157,7 @@ Navbar
     display: block;
     padding: 1rem 1rem;
     transition: var(--transition);
-    background-color: #ecfaf8;
+    background-color: links;
 }
 .links a:hover{
     background: #f26d6e;    
@@ -193,10 +185,11 @@ Navbar
 
 
 .name{
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
     color: #353433;
+    margin: 5px 0px 5px 5px;
 }
 
 .human{
@@ -204,10 +197,9 @@ Navbar
 }
 .daisy{
     color: #f26d6e;
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 400;
-    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
 }
 
 
@@ -227,6 +219,8 @@ Navbar
     color: white;
     font-size: 22px;
     font-weight: lighter;
+    margin: 0 auto;
+    line-height: 36px;
 }
 #contact{
     color: #6E3233;
@@ -260,10 +254,10 @@ Navbar
 
 /*==============END OF FOOTER =================================*/
 
-.selected, .approach, .glocal, .mission, .works-title, .method{
-    font-weight: 900;
-    font-size: 96px; 
-    color: #a1a1a5;
+.selected, .works-title, .method{
+    font-weight: bold;
+    font-size: 32px; 
+    color: #63636b;
     text-align: center;
     background-color: #fbfbfc;
     margin: 0px auto;
@@ -274,18 +268,8 @@ Navbar
 
 
 
-.my-method-heading{
-    font-weight:normal;
-    font-size: 16px;
-}
-.method-para{
-    font-size: 16px;
-    line-height: 16px;
-    color: #353433;
-    font-weight: 300;
-}
 
-#middle, .mission-image{
+#middle{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,11 +289,6 @@ Navbar
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 5px;
-}
-.logo{
-    height: 5vh;
-    padding-top: 0px;
-    margin-top: 3px;
 }
 *:focus{
     /*outline: 5px auto #f26d6e !important;*/
@@ -334,12 +313,14 @@ button:focus{
 .container-text{
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .container:hover{
-    background-color: #f0d8d8;
+    background: radial-gradient(#f8f2f2, #e2dddd);
+    box-shadow: 0 4px 8px 2px #9c91914d;
 }
+
 #background-container{
     background-color:  #EEECEC;
 }
@@ -365,25 +346,56 @@ nav{
     left: 20px;
     right: 20px;
     z-index: 20;
-    max-height: 60px;
+    max-height: calc(10px * 110px);
     max-width: 100%;
     padding: 0rem 0rem;
-    margin: 0px 20px;
+    margin: 10px 20px;
     border-radius: 0px 20px;
-    background-color: #d4f8f3;
-    box-shadow: 0 4px 8px 2px #61edd84f;
+    background-color: #faf5f5;
+    box-shadow: 0 4px 8px 2px #f26d6d21;
 }
 .bk-img{
     position: absolute;
-    max-width: 100%;
+    max-width: 100vw;
     top: 0%;
     left: 0%;
 }
 .footer-para{
     margin: 10px;
 }
+#value{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: normal;
+}
+#profile-pic{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 4px 8px 0 #35343346;
+    border-radius: 50%;
+}
+.container-image2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+.container-text2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 950px){
+    section{
+        height: 100vh;
+        padding: 10em;
+        background-color: blue;
+    }
+    .section2{
+        background-color: gray;
+    }
 
     .nav-center{
         display: flex;
@@ -402,8 +414,8 @@ nav{
         max-height: 8vh;
         max-width: 100vw;
         border-radius: 0px 20px;
-        background-color: #ecfaf8;
-        box-shadow: 0 4px 8px 2px #61edd82a;
+        background-color: #faf5f5;
+        box-shadow: 0 4px 8px 2px #f26d6d21;
     }
 /*
     .nav-center{
@@ -425,20 +437,29 @@ nav{
         border-radius: 5px;
     }
     .name{
-        font-size: 96px;
-        line-height: 110px;
-        font-weight: 500;
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: normal;
         color: #353433;
+        width: 800px;
     }
     .human{
         color: #f26d6e;
+    }
+    #profile-pic{
+        width: 150px;
+        height: 150px;
+        box-shadow: 0 4px 8px 0 #35343346;
+        border-radius: 50%;
     }
     .daisy{
         color: #f26d6e;
         font-weight: 400;
         font-size: 32px;
         line-height: 10px;
-        margin-top: 35px;
+        margin-top: 30px;
+
+        text-align: center;
     }
     
     .hero{
@@ -451,7 +472,7 @@ nav{
 
     .bk-img{
         position: absolute;
-        max-width: 100%;
+        max-width: 100vw;
         top: 0%;
         left: 0%;
     }
@@ -460,11 +481,17 @@ nav{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
         position: absolute;
-        top: 70px;
+        top: 90px;
         left: 0px;
-    
+    }
+    #value{
+        line-height: 36px;
+        margin: 20px 180px;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: 200;
     }
 
     .nav-toggle{
@@ -474,12 +501,14 @@ nav{
     .links{
         height: auto;
         display: flex;
+        justify-content: space-around;
         color: #353433;
     }
 
     .links a {
         padding: 2px 10px;
-        margin: 0 0.5rem;
+        margin-left: 5px;
+        margin-right: 5px;
         color: #353433;
     }
 
@@ -520,11 +549,11 @@ nav{
         background: #F5F5F5;
     }
 
-    .selected, .approach, .glocal, .mission
+    .selected, .method
     {
         font-weight: bolder;
-        font-size: 96px;
-        color: #807C7D;
+        font-size: 32px;
+        color: #63636b;
         line-height: 64px;
         text-align: center;
     }
@@ -535,47 +564,33 @@ nav{
 
 
     .email{
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 32px;
+        line-height: 32px;
         color: white;
         font-weight: light;
-        padding: 1rem;
+        padding: 0rem;
         letter-spacing: 1px;
         text-align: center;
     }
 
-    
-    .my-method-heading{
-        font-weight:normal;
-        font-size: 16px;
-        line-height: 16px;
-    }
-    .method-para{
-        font-weight: 200;
-        font-size: 24px;
-        line-height: 28px;
-        margin: 0 40px;
-    }
-    .row-method{
+    .container2{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        grid-template-areas: "img txt";
+        transition: 0.5s;
+        border-radius: 5px;
     }
-    .row-method > div{
-        margin: 20px auto;
+    .container-image2{
+        grid-area: "img";
+        margin: 20px 100px;
     }
-    .mission-image{
-        max-width: 600px;
-        margin: 10px auto;
-    }
-
-    .logo {
-        height: 4.8vh;
-        padding-top: 0px;
-        margin-bottom: 3px;
-    }
-    #DS{
-        padding-left: 30px;
+    .container-text2{
+        grid-area: "txt";
+        margin: 10px 10px 10px 100px;
     }
 
 
@@ -587,17 +602,24 @@ nav{
         justify-content: center;
         text-align: center;
         grid-template-areas: "image text";
-        transition: 0.5s;
+        transition: 0.9s;
         border-radius: 5px;
+        height: 60vh;
     }
     .container:hover{
-        background-color: #f0d8d8;
+        background: radial-gradient(#f8f2f2, #e2dddd);
+        box-shadow: 0 4px 8px 2px #9c91914d;;
     }
     .container-image{
         grid-area: "image";
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 0px;
     }
+
+    .project-image{
+        padding: 20px;
+        border-radius: 4px;
+    }
+
     .container-text{
         grid-area: "text";
         margin-top: 20px;
@@ -618,6 +640,10 @@ nav{
         padding-top: 5px;
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
+    }
+    .contact-form p{
+        margin: 0 220px;
+        line-height: 40px;
     }
 }
 

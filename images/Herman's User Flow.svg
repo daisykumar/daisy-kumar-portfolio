@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1582px" height="906px" viewBox="0 0 1582 906" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Herman's User Flow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,0 L215,0 C219.418278,-8.11624501e-16 223,3.581722 223,8 L223,55 C223,59.418278 219.418278,63 215,63 L201.400812,63 L8,63 C3.581722,63 5.41083001e-16,59.418278 0,55 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="223" height="63" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M8,0 L177,0 C181.418278,-8.11624501e-16 185,3.581722 185,8 L185,81 C185,85.418278 181.418278,89 177,89 L167.081391,89 L8,89 C3.581722,89 5.41083001e-16,85.418278 0,81 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="185" height="89" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M8,0 L177,0 C181.418278,-8.11624501e-16 185,3.581722 185,8 L185,112 C185,116.418278 181.418278,120 177,120 L167.081391,120 L8,120 C3.581722,120 5.41083001e-16,116.418278 0,112 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="185" height="120" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Herman's-User-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1582" height="906"></rect>
+        <g id="Group" transform="translate(183.000000, 34.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="349" height="46" rx="8"></rect>
+            <text id="Views-story-of-his-i" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="22.8764841" y="28">Views story of his interest in SNAPCHAT</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(258.000000, 123.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="125" height="44" rx="8"></rect>
+            <text id="Signs-Up" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="28.5414453" y="27">Signs Up</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(253.000000, 198.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="137" height="62" rx="8"></rect>
+            <text id="Reads-his-story" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="31.2340038" y="26">Reads his </tspan>
+                <tspan x="50.9720703" y="48">story</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(469.000000, 366.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="137" height="62" rx="8"></rect>
+            <text id="Scrolls-on-oppsumert" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="31.9343749" y="26">Scrolls on </tspan>
+                <tspan x="28.7335156" y="48">oppsumert</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="469.5" y="455.5" width="137" height="79" rx="8"></rect>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="347.5" y="568.5" width="382" height="82" rx="8"></rect>
+        <text id="‘Utrøp’-sparks-his-i" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+            <tspan x="486.052266" y="479">‘Utrøp’ sparks </tspan>
+            <tspan x="480.584355" y="501">his interest and </tspan>
+            <tspan x="505.744746" y="523">he clicks </tspan>
+        </text>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="767.5" y="461.5" width="137" height="73" rx="8"></rect>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="767.5" y="461.5" width="137" height="73" rx="8"></rect>
+        <text id="Checks-out-‘tema’" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+            <tspan x="793.428027" y="491">Checks out </tspan>
+            <tspan x="813.992266" y="513">‘tema’ </tspan>
+        </text>
+        <rect id="Rectangle" stroke="#979797" fill="#000000" x="954.5" y="461.5" width="137" height="73" rx="8"></rect>
+        <text id="Podcast" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+            <tspan x="992.345469" y="502">Podcast</tspan>
+        </text>
+        <g id="Group-4" transform="translate(1148.000000, 117.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="113.5" width="137" height="73" rx="8"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="137" height="56" rx="8"></rect>
+            <text id="Goes-to-his-profile," fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="26.1220507" y="140">Goes to his </tspan>
+                <tspan x="17.4098632" y="162">profile, scrolls</tspan>
+            </text>
+            <text id="Logs-Out" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="34.5370507" y="29">Logs Out</tspan>
+            </text>
+        </g>
+        <path d="M1117,798 L1217,798" id="Line-12" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M1217,798 L1217,304" id="Line-13" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <text id="Engages-with-‘Utrøp’" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+            <tspan x="364.413047" y="597">Engages with ‘Utrøp’ and registers his interest </tspan>
+            <tspan x="401.746875" y="619">to share a story he finds around him</tspan>
+        </text>
+        <path d="M538.5,429 L538.5,455" id="Line-8" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M538.5,535 L538.5,568" id="Line-8" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M391,229.5 L453,229.5" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <g id="Group" transform="translate(453.000000, 198.000000)">
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#000000" stroke-dasharray="7" xlink:href="#path-1"></use>
+            <text id="Shares-story-with-hi" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="30.5647264" y="26">Shares story with his </tspan>
+                <tspan x="46.8893554" y="48">friends on SoMe</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(931.000000, 592.000000)">
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#000000" stroke-dasharray="7" xlink:href="#path-3"></use>
+            <text id="Types-in-search-icon" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="31.8898436" y="30">Types in search </tspan>
+                <tspan x="27.5760546" y="52">icon the news he </tspan>
+                <tspan x="40.5042382" y="74">wants to read</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(932.000000, 738.000000)">
+            <use id="Rectangle" stroke="#979797" mask="url(#mask-6)" stroke-width="2" fill="#000000" stroke-dasharray="7" xlink:href="#path-5"></use>
+            <text id="Reads-the-self-searc" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="35.3947265" y="29">Reads the self-</tspan>
+                <tspan x="35.0003319" y="51">searched news </tspan>
+                <tspan x="24.9626366" y="73">story and </tspan>
+                <tspan x="100.102676" y="73" font-family="Helvetica-Bold, Helvetica" font-weight="bold">saves </tspan>
+                <tspan x="152.817363" y="73">it </tspan>
+                <tspan x="44.7050976" y="95">for later read</tspan>
+            </text>
+        </g>
+        <path d="M1023,535 L1023,592" id="Line-11" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M1024,681 L1024,738" id="Line-11" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <g id="Group" transform="translate(384.000000, 287.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#000000" x="0.5" y="0.5" width="340" height="44" rx="8"></rect>
+            <text id="Views-more-stories-o" fill="#FFFFFF" font-family="Helvetica" font-size="18" font-weight="normal" letter-spacing="-0.389999986">
+                <tspan x="38.2076365" y="24">Views more stories on landing page</tspan>
+            </text>
+        </g>
+        <path d="M537.5,261 L537.5,287" id="Line-4" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M538.5,332 L538.5,366" id="Line-4" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M321,80.5 L321,122" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M321.5,168 L321.5,198" id="Line-3" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <g id="Group-3" transform="translate(216.000000, 326.000000)">
+            <g id="Group-2" fill="#FFFFFF">
+                <polygon id="Triangle" points="83 0 166 67 0 67"></polygon>
+                <polygon id="Triangle" transform="translate(82.500000, 98.000000) scale(1, -1) translate(-82.500000, -98.000000) " points="82.5 67 165 129 0 129"></polygon>
+            </g>
+            <text id="Plays-with-‘lettlest" fill="#000000" font-family="Helvetica" font-size="13" font-weight="normal" letter-spacing="-0.286">
+                <tspan x="24.9226563" y="65">Plays with ‘lettlest’ and </tspan>
+                <tspan x="64.5418828" y="81">‘dyblest’</tspan>
+                <tspan x="108.458117" y="81" letter-spacing="-0.3098333"> </tspan>
+            </text>
+            <path d="M253.5,67 L166,67" id="Line-5" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        </g>
+        <path d="M322.5,261 L322.5,309.5" id="Line-6" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M322.5,309.5 L384,309.5" id="Line-7" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M730,611 L836,611" id="Line-9" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M836.5,535 L836,611" id="Line-9" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M905,498 L954,498" id="Line-10" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M1217.5,230 L1217,174" id="Line-14" stroke="#000000" stroke-width="3" stroke-linecap="square"></path>
+        <path d="M-25.1041129,-110.393972 C17.1040319,-192.743551 17.1040319,-52.8707658 102.893732,-33.3744467 C188.683432,-13.8781275 5.40952684,169.781533 39.183741,453 C72.9579552,736.218467 245.8897,881.135645 223,973.793712 C207.7402,1035.56576 175.976626,1063.79804 127.709278,1058.49055 L-343.690192,906 C-159.438236,283.303738 -53.2428761,-55.4942532 -25.1041129,-110.393972 Z" id="Path-2" stroke="#4F4CEE" stroke-width="3" transform="translate(-59.305519, 461.493821) rotate(-7.000000) translate(59.305519, -461.493821) "></path>
+        <path d="M-15.4139214,-163.261156 C26.7942234,-245.610735 26.7942234,-105.73795 112.583923,-86.2416309 C198.373623,-66.7453118 15.0997184,116.914349 48.8739325,400.132816 C82.6481467,683.351282 255.579891,828.268461 232.690192,920.926528 C217.430392,982.698573 185.666817,1010.93085 137.399469,1005.62336 L-334,853.132816 C-149.748044,230.436553 -43.5526845,-108.361437 -15.4139214,-163.261156 Z" id="Path-2" fill-opacity="0.2" fill="#4F4CEE" transform="translate(-49.615328, 408.626637) rotate(-7.000000) translate(49.615328, -408.626637) "></path>
+        <path d="M1492.68738,-38.9815439 C1447.5736,-131.213472 1430.75004,-98.0648236 1442.21668,60.4644013 C1459.41665,298.258239 1554.23701,466.084584 1536.10511,561.279375 C1517.97321,656.474165 1379.49185,784.050644 1362.08056,861.908149 C1350.47303,913.813152 1354.87482,978.326225 1375.28592,1055.44737 L1930.06351,995.914767 L1646.07204,-61.695075 L1492.68738,-38.9815439 Z" id="Path-3" stroke="#4F4CEE" stroke-width="3" fill-opacity="0.2" fill="#4F4CEE" transform="translate(1642.916029, 482.790189) rotate(4.000000) translate(-1642.916029, -482.790189) "></path>
+        <path d="M1476.91884,-69.1145551 C1431.80506,-161.346483 1414.98149,-128.197835 1426.44813,30.3313902 C1443.6481,268.125228 1538.46846,435.951573 1520.33656,531.146363 C1502.20466,626.341154 1363.72331,753.917633 1346.31202,831.775138 C1334.70449,883.680141 1339.10627,948.193214 1359.51737,1025.31436 L1914.29496,965.781756 L1630.30349,-91.8280862 L1476.91884,-69.1145551 Z" id="Path-3" stroke="#4F4CEE" stroke-width="3" transform="translate(1627.147482, 452.657178) rotate(4.000000) translate(-1627.147482, -452.657178) "></path>
+    </g>
+</svg>
