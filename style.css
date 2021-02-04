@@ -33,7 +33,7 @@ Global Styles
 
 body{
     font-size: 16px;
-    background-color: #f9f9fc;
+    background-color: #ffffff ! ; 
     width: 100%;
 
 }
@@ -58,7 +58,6 @@ h1, h2, h3, h4{
     justify-content: space-between;
     padding: 0rem;
     height: 350px;
-    background: #EEECEC;
     max-width: 100%;
     text-align: center;
     font-size: 24px;
@@ -595,23 +594,21 @@ nav{
 
 
     .container{
-        display: grid;
-        grid-template-columns: 0px 500px 500px 0px;
-        grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        grid-template-areas: "image text";
+        /*grid-template-areas: "image text";*/
         transition: 0.9s;
         border-radius: 5px;
-        height: 60vh;
+        height: 150vh;
     }
     .container:hover{
         background: radial-gradient(#f8f2f2, #e2dddd);
         box-shadow: 0 4px 8px 2px #9c91914d;;
     }
     .container-image{
-        grid-area: "image";
         margin: 0px;
     }
 
@@ -621,7 +618,6 @@ nav{
     }
 
     .container-text{
-        grid-area: "text";
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 30px;
