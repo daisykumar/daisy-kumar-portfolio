@@ -28,7 +28,9 @@ if(id) {
         <h1 class="main-heading" style="text-align: center;">
         ${project.title}        
         </h1>
-        
+        <p class="middle-para">
+        ${project.field_1612457640615}        
+        </p>
         `;
 
         projectContainer.innerHTML = html;

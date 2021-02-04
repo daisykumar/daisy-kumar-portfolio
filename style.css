@@ -33,14 +33,14 @@ Global Styles
 
 body{
     font-size: 16px;
-    background-color: #ffffff ! ; 
+    background-color: #ffffff; 
     width: 100%;
 
 }
 p, ol, li, a{
     line-height: 28px;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 ol, ul {
     margin: 0 !important;
