@@ -349,7 +349,7 @@ nav{
     max-width: 100%;
     padding: 0rem 0rem;
     margin: 10px 20px;
-    border-radius: 0px 20px;
+    border-radius: 0px;
     background-color: #faf5f5;
     box-shadow: 0 4px 8px 2px #f26d6d21;
 }
@@ -412,7 +412,7 @@ nav{
         padding: 5px;
         max-height: 8vh;
         max-width: 100vw;
-        border-radius: 0px 20px;
+        border-radius: 0px;
         background-color: #faf5f5;
         box-shadow: 0 4px 8px 2px #f26d6d21;
     }
