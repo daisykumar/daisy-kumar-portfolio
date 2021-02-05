@@ -8,14 +8,25 @@ if(id) {
     app.content.get({
       schemaKey: 'projects', // navnet på schema-et ditt
         entryId: id,
-        populate: [{
-        field: 'dataPng',
-        size: {
-            height: 9999,
-            quality: 1,
-            width: 1440
-        }
-    }]
+        populate: [
+            {
+                field: 'dataPng',
+                size: {
+                    height: 9999,
+                    quality: 1,
+                    width: 1440
+                }
+            },
+            {
+                field: 'content',
+                subFields: ['image'], 
+                size: {
+                    height: 9999,
+                    quality: 1,
+                    width: 1440
+                }
+            }
+        ]
     })
     .then(project => {
         console.log('Project:', project)
@@ -28,9 +39,9 @@ if(id) {
         <h1 class="main-heading" style="text-align: center;">
         ${project.title}        
         </h1>
-        <p class="middle-para">
+
         ${project.field_1612457640615}        
-        </p>
+
         `;
 
         projectContainer.innerHTML = html;

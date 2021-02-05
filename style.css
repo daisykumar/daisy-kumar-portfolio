@@ -32,26 +32,29 @@ Global Styles
 }
 
 body{
-    font-size: 16px;
-    background-color: #ffffff; 
+    font-size: 18px;
+    background-color: #ffffff ! ; 
     width: 100%;
-
+    color: #353433;
 }
 p, ol, li, a{
     line-height: 28px;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
 }
 ol, ul {
     margin: 0 !important;
     /* margin-bottom: 10px; */
 }
-p{
-    font-size: 16px;
-}
 
 h1, h2, h3, h4{
     font-family: 'Poppins', sans-serif !important;
+}
+H3{
+    font-weight: normal;
 }
 
 .hero{
@@ -106,7 +109,9 @@ img {
 
 .project-button{
     color: white;
-    padding: 15px;
+    padding:15px;
+    font-size: 12px;
+    letter-spacing: 5px;
     margin: 2px 0px;
     border: none;
     border-radius: 5px;
@@ -116,8 +121,8 @@ img {
 
 }
 .project-button:hover{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
     background-color: #f26d6e;
 }
 
@@ -126,9 +131,7 @@ img {
 .workshop{
     margin: 0 auto;
 }
-#DS{
-    padding-top: 20px;
-}
+
 /*
 =============== 
 Navbar
@@ -155,6 +158,7 @@ Navbar
     color: #353433;
     font-size: 16px;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: var(--spacing);
     display: block;
     padding: 1rem 1rem;
@@ -220,7 +224,7 @@ Navbar
 .contact-form p{
     color: white;
     font-size: 22px;
-    font-weight: lighter;
+    font-weight: normal;
     margin: 0 auto;
     line-height: 36px;
 }
@@ -256,9 +260,9 @@ Navbar
 
 /*==============END OF FOOTER =================================*/
 
-.selected, .works-title, .method{
-    font-weight: bold;
-    font-size: 32px; 
+.selected, .works-title, .method{ 
+    font-size: 32px;
+    line-height: 48px;
     color: #63636b;
     text-align: center;
     background-color: #fbfbfc;
@@ -268,7 +272,12 @@ Navbar
     font-family: 'Poppins', sans-serif !important;
 }
 
-
+.works-title h2{
+    font-weight: normal;
+}
+.method h2{
+    font-weight: normal;
+}
 
 
 #middle{
@@ -317,15 +326,16 @@ button:focus{
     margin-bottom: 20px;
     text-align: left;
 }
-
+/*
 .container:hover{
     background: radial-gradient(#f8f2f2, #e2dddd);
     box-shadow: 0 4px 8px 2px #9c91914d;
 }
-
-#background-container{
+*/
+#background-container, #background-container2{
     background-color:  #EEECEC;
 }
+
 
 nav{
     padding-top: 0.1rem;
@@ -351,7 +361,7 @@ nav{
     max-height: calc(10px * 110px);
     max-width: 100%;
     padding: 0rem 0rem;
-    margin: 10px 20px;
+    margin: 0px 20px;
     border-radius: 0px;
     background-color: #faf5f5;
     box-shadow: 0 4px 8px 2px #f26d6d21;
@@ -390,14 +400,8 @@ nav{
 }
 
 @media screen and (min-width: 950px){
-    section{
-        height: 100vh;
-        padding: 10em;
-        background-color: blue;
-    }
-    .section2{
-        background-color: gray;
-    }
+
+    
 
     .nav-center{
         display: flex;
@@ -605,27 +609,32 @@ nav{
         /*grid-template-areas: "image text";*/
         transition: 0.9s;
         border-radius: 5px;
-        height: 150vh;
+        height: 170vh;
     }
+    /*
     .container:hover{
-        background: radial-gradient(#f8f2f2, #e2dddd);
+        background: radial-gradient(#ffffff, #f8f4f4);
         box-shadow: 0 4px 8px 2px #9c91914d;;
-    }
+    }*/
     .container-image{
-        margin: 0px;
+        margin:0px;
+        padding: 20px;
+        position: relative;
     }
 
     .project-image{
-        padding: 20px;
+        padding: 0px;
         border-radius: 4px;
     }
 
     .container-text{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         margin-left: 30px;
+        padding-bottom: 10px;
         align-items: center;
         justify-content: center;
+
     }
     #background-container{
         background-color:  #EEECEC;
@@ -642,7 +651,20 @@ nav{
     }
     .contact-form p{
         margin: 0 220px;
+        font-weight: normal;
         line-height: 40px;
+    }
+    .middle-para{
+        width: 50vw;
+        max-width: 45%;
+    }
+    #project {
+        background-color: rgb(86, 102, 153);
+    }
+    #project p{
+        width: 50vw;
+        max-width: 45%;
+        text-align: center;
     }
 }
 
