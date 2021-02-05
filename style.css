@@ -658,13 +658,24 @@ nav{
         width: 50vw;
         max-width: 45%;
     }
-    #project {
-        background-color: rgb(86, 102, 153);
-    }
+
     #project p{
         width: 50vw;
         max-width: 45%;
         text-align: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        top: 20px;
+        flex-direction: column;
+    }
+    .inner-image{
+        padding: 20px;
+        max-width: 60%;
+        border-radius: 10px;
     }
 }
 

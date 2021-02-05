@@ -39,9 +39,11 @@ if(id) {
         <h1 class="main-heading" style="text-align: center;">
         ${project.title}        
         </h1>
-
-        ${project.field_1612457640615}        
-
+        ${ project.content.map(el => `
+        <p class="middle-para">${el.text}</p>
+        <img class="inner-image" src="${el.image[0].url}">
+        `).join('') 
+        }
         `;
 
         projectContainer.innerHTML = html;

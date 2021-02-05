@@ -44,42 +44,6 @@ app.content.get({
 .catch(error => console.log(error))
 
 
-
-//Ask line 41 to 72
-// app.content.get({
-// schemaKey: 'home',
-// //     populate: [{
-// //         field: 'heroImagePng',
-// //         size:{
-// //           height: 400,
-// //           quality: 1,
-// //           width: 600
-// //         }
-// //       }]
-//   })
-
-//     .then(home =>{
-//     console.log('All of your projects:', home)
-//       let html = "";
-//       console.log(home);
-//       // for(const property in homePage){
-//       // let hP = homePage[property];
-//       //   html += `
-//       //   <header class="hero">
-//       //   <div class="bk-img">
-//       //   <img src="${hP.heroImagePng[0].url}">
-//       //   </div>
-//       //   <article class="hero-img">
-//       //       <h1 style="text-align:center" class="name"> <span   class="human">Humanising Technology, </span>Creating Value through Design</h1>
-//       //       <p class="daisy" style="text-align:center">DAISY KUMAR</p>
-//       //   </article>
-//       //   </header>
-//       // `
-//       // }
-//       heroBackground.innerHTML = html
-//     })
-//     .catch(error => console.log(error)) 
-
 app.content.get({
   schemaKey: 'projects',
   orderBy: 'order',
@@ -118,17 +82,7 @@ app.content.get({
 
 
 navToggle.addEventListener("click", function (){
-    //console.log(links.classList);
-    //console.log(links.classList.contains("random"));
-    //console.log(links.classList.contains("links"));
-    //if(links.classList.contains("show-links")){
-    //     links.classList.remove("show-links") 
-    //} else {
-    //   links.classList.add("show-links");
-    //}
     links.classList.toggle("show-links");
     links.classList.toggle("show-socials");
-
-    
 });
 
