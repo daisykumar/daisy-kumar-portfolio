@@ -52,10 +52,9 @@ ol, ul {
 
 h1, h2, h3, h4{
     font-family: 'Poppins', sans-serif !important;
-}
-H3{
     font-weight: normal;
 }
+
 
 .hero{
     margin: 0 auto;
@@ -412,6 +411,13 @@ nav{
     flex-direction: column;
     margin: 10px 20px;
 }
+.inner-image{
+    padding: 20px;
+    margin: 20px;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
 
 @media screen and (min-width: 950px){
 
@@ -688,7 +694,8 @@ nav{
     }
     .inner-image{
         padding: 20px;
-        max-width: 60%;
+        margin: 20px;
+        max-width: 70%;
         border-radius: 10px;
     }
 }

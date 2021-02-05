@@ -36,9 +36,7 @@ if(id) {
         <img src="${project.dataPng[0].url}" alt="Hero-Image">
         </div>
         </header> 
-        <h1 class="main-heading" style="text-align: center;">
-        ${project.title}        
-        </h1>
+
         ${ project.content.map(el => `
         <p class="middle-para">${el.text}</p>
         <img class="inner-image" src="${el.image[0].url}">
@@ -53,3 +51,6 @@ if(id) {
     else {
     projectsContainer.innerHTML = "Fant ikke prosjekt-ID :/";
 }
+//        <h1 class="main-heading" style="text-align: center;">
+   //         ${project.title}        
+    //        </h1>
