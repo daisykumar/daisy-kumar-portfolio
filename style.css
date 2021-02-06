@@ -407,12 +407,7 @@ nav{
     flex-direction: column;
     margin: 10px 20px;
 }
-.inner-image{
-    padding: 20px;
-    margin: 20px;
-    max-width: 70%;
-    border-radius: 10px;
-}
+
 .method, .works-title{
     font-size: 18px;
     font-weight: normal;
@@ -424,7 +419,25 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+p, .middle-para{
+    max-width: 100%;
+    margin-left: 20px;
+}
+ol{
+    max-width: 100%;
+    padding-left: 40px;
+}
+h1,h2,h3{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
+.inner-image{
+    padding: 0px;
+    margin: 10px;
+    border-radius: 0px;
+}
 @media screen and (min-width: 950px){
 
     .nav-center{
