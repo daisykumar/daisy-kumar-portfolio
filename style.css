@@ -405,7 +405,7 @@ nav{
 .container-text2{
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 0px;
 }
 
 .method, .works-title{
@@ -415,7 +415,7 @@ nav{
     color: #63636b;
     text-align: center;
     background-color: #fbfbfc;
-    margin: 0px auto;
+    margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -428,9 +428,7 @@ ol{
     padding-left: 40px;
 }
 h1,h2,h3{
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin:20px
 }
 
 .inner-image{
