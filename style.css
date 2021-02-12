@@ -353,11 +353,16 @@ nav{
     width: 100%;
     padding-left: 35rem;
 }
-
+.logo {
+    height: 45px;
+}
+img:not(.logo) {
+    width: 100%;
+}
 .nav-header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
 }
 .nav-center{
