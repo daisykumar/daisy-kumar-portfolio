@@ -1,2 +1,2 @@
 # daisy-kumar-portfolio
-Hosted on Google Firebase, created own Content Management System by integrating Flamelink with Google Firebase, and deployed on Netlify
+Hosted on Google Firebase, created own Content Management System on Flamelink and integrateed it with Google Firebase, and deployed on Netlify
