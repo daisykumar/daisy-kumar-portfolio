@@ -207,7 +207,7 @@ Navbar
 
 /* TOGGLE CLASS */
 .show-links {
-    height: 8rem;
+    height: 10rem;
     padding-top: 1rem;
     transform: rotate(0deg);
 }
